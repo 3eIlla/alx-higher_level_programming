@@ -213,6 +213,156 @@ San Francisco Battery street, 98
 ######
 # 0x1
 
+> Question #0
+
+What do these lines print?
+
+for i in range(2, 4):
+    print(i, end=" ")
+
+3 4
+
+
+2 4
+
+
+\>>>> 2 3
+
+
+2 3 4
+
+> Question #1
+
+What do these lines print?
+
+for i in range(4):
+    print(i, end=" ")
+
+0 1 2 3 4
+
+
+1 2 3 4
+
+
+1 2 3
+
+
+\>>>> 0 1 2 3
+
+> Question #2
+
+What do these lines print?
+
+a = 12
+if a < 2:
+    print("Holberton")
+elif a % 2 == 0:
+    print("C is fun")
+else:
+    print("School")
+
+Holberton
+
+
+\>>>> C is fun
+
+
+School
+
+> Question #3
+
+What do these lines print?
+
+a = 12
+if a > 2:
+    if a % 2 == 0:
+        print("Holberton")
+    else:
+        print("C is fun")
+else:
+    print("School")
+
+\>>>> Holberton
+
+
+C is fun
+
+
+School
+
+> Question #4
+
+What do these lines print?
+
+if 12 == 48/4 and False:
+    print("Holberton")
+else:
+    print("School")
+
+\>>>> School
+
+
+ Holberton
+
+> Question #5
+
+What do these lines print?
+
+if 12 == 48/4:
+    print("Holberton")
+else:
+    print("School")
+
+School
+
+
+\>>>> Holberton
+
+> Question #6
+
+What do these lines print?
+
+if True:
+    print("Holberton")
+else:
+    print("School")
+
+School
+
+
+\>>>> Holberton
+
+>Question #7
+
+What do these lines print?
+
+for i in range(2, 10, 2):
+    print(i, end=" ")
+
+\>>>> 2 4 6 8
+
+
+2 3 4 5 6 7 8 9 10
+
+
+2 3 4 5 6 7 8 9
+
+
+4 6 8 10 12 14 16 18
+
+> Question #8
+
+What do these lines print?
+
+if 12 == 48/3 or 12 is 12:
+    print("Holberton")
+else:
+    print("School")
+
+School
+
+
+\>>>> Holberton
 
 ######
 
