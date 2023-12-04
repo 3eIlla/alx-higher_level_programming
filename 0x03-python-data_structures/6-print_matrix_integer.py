@@ -12,6 +12,5 @@ def print_matrix_integer(matrix=[[]]):
 
         for li in range(len(submatrix)):
             print("{:d}"
-                  .format(submatrix[li]),
-                     end="\n"
-                       if li is len(submatrix) - 1 else " ")
+                  .format(submatrix[li]), end="\n"
+                  if li is len(submatrix) - 1 else " ")
