@@ -7,5 +7,5 @@ def weight_average(my_list=[]):
 
     else:
         return (sum(a * b for a,
-                     b in my_list) / sum(b for a,
-                                          b in my_list))
+                    b in my_list) / sum(b for a,
+                                        b in my_list))
